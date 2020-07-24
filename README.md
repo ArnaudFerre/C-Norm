@@ -1,7 +1,9 @@
 # C-Norm
 Concept NORMalization: A Neural Approach to Few-Shot Entity Normalization
 
-Ongoing...
+The method implemented in this repository enables to reproduce equivalent results than those published in:
+(ongoing...)
+
 Will be shared soon!
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
