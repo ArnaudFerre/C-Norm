@@ -1,5 +1,6 @@
 **# C-Norm (Concept NORMalization)**
 
+
 The method implemented in this repository enables to reproduce equivalent results than those published in:<br />
 C-Norm: a Neural Approach to Few-Shot Entity Normalization<br />
 Arnaud Ferré-1, Louise Deléger-1, Robert Bossy-1, Pierre Zweigenbaum-2, Claire Nédellec-1<br />
