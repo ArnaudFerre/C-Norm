@@ -17,7 +17,7 @@ C-Norm training on tool dataset:
 `python module_train/main_train.py --word-vectors-bin test/DATA/wordEmbeddings/VST_count0_size100_iter50.model --ontology test/DATA/OntoBiotope_BioNLP-ST-2016.obo --terms test/DATA/trainingData/terms_train.json --factor 0.6 --model test/DATA/learnedHyperparameters/CNorm/ --archiName cnorm --epochs 3 --batch 64 --attributions test/DATA/trainingData/attributions_train.json`
 
 C-Norm prediction on tool dataset (on dev set):<br/>
-`python module_predictor/main_predictor.py --word-vectors-bi test/DATA/wordEmbeddings/VST_count0_size100_iter50.model --ontology test/DATA/OntoBiotope_BioNLP-ST-2016.obo --terms test/DATA/trainingData/term
+`python module_predictor/main_predictor.py --word-vectors-bin test/DATA/wordEmbeddings/VST_count0_size100_iter50.model --ontology test/DATA/OntoBiotope_BioNLP-ST-2016.obo --terms test/DATA/trainingData/term
 s_dev.json --factor 0.6 --model test/DATA/learnedHyperparameters/CNorm/ --output test/DATA/predictedData/CNorm_pred.txt`
 
 
