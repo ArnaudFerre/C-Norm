@@ -41,8 +41,8 @@ For main_train.py:<br />
 For main_predictor.py:<br />
 --word-vectors-bin: path to the embeddings file of tokens, Gensim model or JSON. Use the same embeddings that in your training set.<br />
 --ontology: path to the ontology file (OBO format, some OWL format) used to normalize mentions. Use the same ontology file that in your training set.<br />
---terms: path to the JSON file containing the mentions from examples, with their word segmentation. Format: {"mention_unique_id1": ["token11", "token12", …, "token1m"], "mention_unique_id2": ["token12", … "token1n"], … }<br />
+--terms: path to the JSON file containing the mentions from examples, with their word segmentation. Format: `{"mention_unique_id1": ["token11", "token12", …, "token1m"], "mention_unique_id2": ["token12", … "token1n"], … }`<br />
 --factor: value to smooth the concept vectors weights. Preferentially, use the value that in your training set.<br />
 --model: path where is located the Tensorflow model after training.<br />
---output: path where save the prediction. CSV format: mention_id	concept_id	similarity_value<br />
+--output: path where save the prediction. CSV format: `mention_id	concept_id	similarity_value`<br />
 
