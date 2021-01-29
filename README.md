@@ -27,7 +27,7 @@ You can directly run the two scripts: module_train/main_train.py and the module_
 
 **Information on parameters:**
 For main_train.py:/>
---word-vectors-bin: path to the embeddings file of tokens, Gensim model or JSON. JSON format: `{"token1": [value11, …, value1N], "token2": [value21, …, value2N], …}`/>
+--word-vectors-bin: path to the embeddings file of tokens, Gensim model or JSON. JSON format: `{"token1": [value11, …, value1N], "token2": [value21, …, value2N], …}` />
 --ontology: path to the ontology file (OBO format, some OWL format) used to normalize mentions (i.e the identifiers of the concepts must be the same used in the attributions file)./>
 --terms: path to the JSON file containing the mentions from examples, with their word segmentation. Format: `{"mention_unique_id1": ["token11", "token12", …, "token1m"], "mention_unique_id2": ["token12", … "token1n"], … }`/>
 --factor: value to smooth the concept vectors weights. If factor=0, concept vectors are one-hot encoding. If factor=1, for each concept vector, the weight associated to its parent concept is equal to 1. To reproduce our work, use factor=0,6./>
