@@ -6,7 +6,7 @@ C-Norm: a Neural Approach to Few-Shot Entity Normalization<br />
 Arnaud Ferré-1, Louise Deléger-1, Robert Bossy-1, Pierre Zweigenbaum-2, Claire Nédellec-1<br />
 1-Université Paris-Saclay, INRAE MaIAGE, Jouy-en-Josas, France<br />
 2-Université Paris-Saclay, CNRS LIMSI, Orsay, France<br />
-
+Web link: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03886-8#Sec8
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
