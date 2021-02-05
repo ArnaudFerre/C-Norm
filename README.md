@@ -51,13 +51,11 @@ For main_predictor.py:<br />
 Language: Python 3.6.9<br />
 <br />
 Python libraries:<br />
-Tensorflow 2.0.0 : neural networks<br />
-[Pronto](https://pypi.org/project/pronto/): ontology manipulation (OBO, possibly OWL)<br /> 
-[Gensim](https://radimrehurek.com/gensim/models/word2vec.html): creation/manipulation of word embeddings (optional - JSON equivalent format normally tolerated)<br />
-[Numpy](https://numpy.org/)<br />
+--Tensorflow 2.0.0 : neural networks<br />
+--[Pronto](https://pypi.org/project/pronto/): ontology manipulation (OBO, possibly OWL)<br /> 
+--[Gensim](https://radimrehurek.com/gensim/models/word2vec.html): creation/manipulation of word embeddings (optional - JSON equivalent format normally tolerated)<br />
+--[Numpy](https://numpy.org/)<br />
 <br />
 External tools (managed by the [AlvisNLP/ML](https://bibliome.github.io/alvisnlp/) suite in the published experiments):<br />
-Sentence/word segmenter :<br />
-    - [SeSMig](https://bibliome.github.io/alvisnlp/reference/module/SeSMig) <br />
-    - [WoSMig](https://bibliome.github.io/alvisnlp/reference/module/WoSMig) <br />
-Named entity recognition: needed by the method first (C-Norm retrieves the results of a recognition as input)<br />
+--Sentence/word segmenter : [SeSMig](https://bibliome.github.io/alvisnlp/reference/module/SeSMig) / [WoSMig](https://bibliome.github.io/alvisnlp/reference/module/WoSMig) <br />
+--Named entity recognition: needed by the method first (C-Norm retrieves the results of a recognition as input)<br />
