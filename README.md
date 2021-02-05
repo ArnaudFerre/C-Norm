@@ -51,7 +51,7 @@ For main_predictor.py:<br />
 Language: Python 3.6.9<br />
 <br />
 Python libraries:<br />
---Tensorflow 2.0.0 : neural networks<br />
+--[Tensorflow 2.0.0](https://www.tensorflow.org/install) : neural networks<br />
 --[Pronto](https://pypi.org/project/pronto/): ontology manipulation (OBO, possibly OWL)<br /> 
 --[Gensim](https://radimrehurek.com/gensim/models/word2vec.html): creation/manipulation of word embeddings (optional - JSON equivalent format normally tolerated)<br />
 --[Numpy](https://numpy.org/)<br />
