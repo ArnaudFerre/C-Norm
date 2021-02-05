@@ -47,7 +47,7 @@ For main_predictor.py:<br />
 --output: path where save the prediction. CSV format: `mention_id	concept_id	similarity_value`<br />
 
 
-**Dependencies:**<br />
+**Dependencies:**<br /><br />
 Language: Python 3.6.9<br />
 <br />
 Python libraries:<br />
@@ -56,7 +56,7 @@ Tensorflow 2.0.0 : neural networks<br />
 [Gensim](https://radimrehurek.com/gensim/models/word2vec.html): creation/manipulation of word embeddings (optional - JSON equivalent format normally tolerated)<br />
 [Numpy](https://numpy.org/)<br />
 <br />
-External tools (managed by the AlvisNLP/ML suite):<br />
+External tools (managed by the [AlvisNLP/ML](https://bibliome.github.io/alvisnlp/) suite in the published experiments):<br />
 Sentence/word segmenter :<br />
     - [SeSMig](https://bibliome.github.io/alvisnlp/reference/module/SeSMig) <br />
     - [WoSMig](https://bibliome.github.io/alvisnlp/reference/module/WoSMig) <br />
